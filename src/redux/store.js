@@ -3,7 +3,7 @@ import initialState from './initialState';
 import shortid from 'shortid';
 import strContains from '../components/utils/strContains';
 
-//selectors
+
 export const getFilteredCards = ({ cards, searchString }, columnId) =>
 	cards.filter(
 		(card) =>
