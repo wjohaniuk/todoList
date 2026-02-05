@@ -20,5 +20,9 @@
 		color: white;
 		margin-right: 20px;
 		text-decoration: none;
+
+		&.linkActive {
+			color: $color-warning;
+		}
 	}
 }

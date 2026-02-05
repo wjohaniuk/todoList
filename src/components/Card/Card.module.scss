@@ -11,6 +11,18 @@
 	justify-content: space-between;
 	font-weight: bold;
 }
-.icon {
-    margin-right: $base-size / 2;
+
+.favorite {
+	background-color: #f7f7f7;
+	border: 1px solid #ccc;
+
+	i {
+		color: darkorange;
+	}
+}
+
+.favoriteButton {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
 }
