@@ -1,3 +1,4 @@
+import React from 'react';
 import NavBar from './components/NavBar/NavBar';
 import Home from './components/Home/Home';
 import About from './components/About/About';
@@ -16,7 +17,7 @@ const App = () => {
 					<Route path='/' element={<Home />} />
 					<Route path='/about' element={<About />} />
 					<Route path='/favorite' element={<Favorite />} />
-					<Route path="/list/:listId" element={<List />} />
+					<Route path='/list/:listId' element={<List />} />
 					<Route path='*' element={<NotFoundErr />} />
 				</Routes>
 			</Container>
